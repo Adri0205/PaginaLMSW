@@ -1,18 +1,128 @@
 body {
-    background-color: #9CCC65;
-
+    background-color: #dcefe3;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    background-image: url("../img/topography.svg");
+
+
 }
 
 header {
-    background-color: #689F38;
-    background-size: cover;
-    color: rgb(121, 6, 6);
-    padding: 15px 0;
+    position: fixed;
     text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #3d8c6a;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+.hero {
+    height: 100dvh;
+    background: center/cover url("../img/hero.png") no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+
+.heroSection {
+    text-align: justify;
+    padding: 180px 0px 0px 180px;
+
+}
+
+button {
+    background: #2b7053;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+#historia {
+    display: flex;
+    margin: 30px 70px;
+}
+
+#historia div {
+    text-align: justify;
+    width: 680px;
+    align-self: center;
+    margin: auto;
+}
+
+#historia img {
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#galeria {
+    text-align: center;
+    margin: 30px;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+    margin: 30px;
+}
+
+.img1 {
+    grid-row: span 8 / span 8;
+    width: 495px;
+    height: 498px;
+    border-radius: 15px;
+}
+
+.img2 {
+    grid-row: span 4 / span 4;
+    width: 495px;
+    height: 243px;
+    border-radius: 15px;
+}
+
+.img3 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    width: 495px;
+    height: 243px;
+    border-radius: 15px;
+}
+
+.img4 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 370px;
+    height: 243px;
+    border-radius: 15px;
+}
+
+.img5 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 3;
+    grid-row-start: 5;
+    width: 370px;
+    height: 243px;
+    border-radius: 15px;
+}
+
+#ubicacion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 30px 70px;
+    border-radius: 15px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    color: #dcefe3;
+}
+
 
 nav ul {
     list-style: none;
@@ -30,45 +140,9 @@ nav ul li a {
     font-weight: bold;
 }
 
-.hero {
-    background: url('hero.jpg') no-repeat center center/cover;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
-.btn {
-    display: inline-block;
-    background: #ff5733;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-section {
-
-    background: white;
-    margin: 10px;
-
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.imagenes img {
-    width: 100%;
-    max-width: 400px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
+    /* background: #333; */
     color: white;
 }
