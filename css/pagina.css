@@ -3,32 +3,38 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-image: url("../img/topography.svg");
-
-
+    color: #2e3633;
 }
 
 header {
     position: fixed;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     width: 100%;
-    background-color: #3d8c6a;
+    background-color: #2b7053;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    /* color: #235945; */
 }
 
 .hero {
     height: 100dvh;
     background: center/cover url("../img/hero.png") no-repeat;
-    color: white;
+    color: #f9f9f9;
     background-attachment: fixed;
 }
 
 .heroSection {
-    text-align: justify;
-    padding: 180px 0px 0px 180px;
+    /* text-align: justify; */
+    padding: 75px 0px 0px 200px;
+    font-size: 25px;
 
 }
 
@@ -43,10 +49,12 @@ button {
 #historia {
     display: flex;
     margin: 30px 70px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
 }
 
 #historia div {
-    text-align: justify;
+    text-align: center;
     width: 680px;
     align-self: center;
     margin: auto;
@@ -116,11 +124,8 @@ button {
     justify-content: center;
     text-align: center;
     padding-bottom: 30px;
-    margin: 30px 70px;
-    border-radius: 15px;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
-    color: #dcefe3;
+    margin: 30px 0 0 0;
+    background: #f9f9f9;
 }
 
 
@@ -143,6 +148,6 @@ nav ul li a {
 footer {
     text-align: center;
     padding: 10px;
-    /* background: #333; */
+    background: #2b7053;
     color: white;
 }
