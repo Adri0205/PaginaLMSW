@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-dfewf body {
+body {
     background-color: #dcefe3;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +13,6 @@ dfewf body {
 section {
     scroll-margin-top: 70px;
 }
-
 
 header {
     position: fixed;
