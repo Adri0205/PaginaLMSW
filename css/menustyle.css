@@ -16,8 +16,8 @@ h2 {
     font-size: 30px;
     font-family: "Alumni Sans Pinstripe", sans-serif;
     font-family: "Poiret One", sans-serif;
-        text-align: center;   
-        color: white;
+    text-align: center;
+    color: white;
 }
 
 .galeria {
@@ -26,11 +26,12 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
 section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    gap: 20px;
 }
 
 /* Estilo de las imágenes */
@@ -55,8 +56,9 @@ section img:hover {
     filter: contrast(120%);
     cursor: pointer;
 }
-p{
+
+p {
     font-family: "Poiret One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
