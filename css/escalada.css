@@ -1,84 +1,10 @@
 body {
-    text-align: center;
-    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
-    color: white;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
 h2 {
     margin-bottom: 20px;
-    font-size: 30px;
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    font-family: "Poiret One", sans-serif;
-        text-align: center;
-        color: white;
-}
-
-/* Contenedor de la galería */
-.galeria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Sección de imágenes */
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px; /* Espaciado entre imágenes */
-}
-
-/* Estilo de las imágenes */
-section a {
-    display: inline-block;
-    overflow: hidden;
-}
-
-section img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    opacity: 0.8;
-    transition: transform 0.4s ease, opacity 0.4s ease;
-    border-radius: 10px;
-}
-
-/* Al pasar el cursor, la imagen se agranda */
-section img:hover {
-    transform: scale(1.2);
-    opacity: 1;
-    filter: contrast(120%);
-    cursor: pointer;
-}
-
-/* Información oculta por defecto */
-.info {
-    display: none;
     color: white;
-    text-align: center;
-    margin-top: 30px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
-    padding: 15px;
-    border-radius: 10px;
-    width: 100%;
-    margin: auto;
-    font-size: 18px;
-}
-
-/* Mostrar información al hacer clic */
-.info:target {
-    display: block;
-}
-p{
-    font-family: "Poiret One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
