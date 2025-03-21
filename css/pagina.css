@@ -50,9 +50,12 @@ h1 {
 
 h2 {
     font-size: 35px;
-    font-family: "Newsreader", serif;
     text-align: center;
+}
 
+
+p {
+    text-align: center;
 }
 
 .hero {
@@ -89,6 +92,10 @@ button {
    
  
    
+}
+
+button:hover {
+    background: #0b461d;
 }
 
 #historia {
@@ -268,7 +275,6 @@ button {
     background: linear-gradient(to bottom, #025535, #000000);
     color: white;
 }
-
 
 nav ul {
     list-style: none;
