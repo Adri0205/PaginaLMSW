@@ -17,7 +17,7 @@ body {
 }
 
 .info-section {
-    background: #0d5723;
+    background: linear-gradient(to bottom, #97A97C, #718355);
     color: white;
     padding: 30px;
     width: 50%;

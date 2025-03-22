@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-color: #dcefe3;
+    background-color: #B5C99A;
     color: #2e3633;
     font-family: "Chelsea Market", system-ui;
     margin: 0;
@@ -89,7 +89,7 @@ header nav {
 
 button {
     font-family: "Chelsea Market", system-ui;
-    background: #025535;
+    background: linear-gradient(to bottom, #97A97C, #718355);
     color: #f9f9f9;
     border: none;
     padding: 15px 30px;
@@ -105,7 +105,7 @@ button:hover {
 }
 
 #historia {
-    background-color: #AAAE7F;
+    background: linear-gradient(to bottom, #97A97C, #718355);
     display: flex;
     margin: 30px;
     padding: 20px;
@@ -127,7 +127,7 @@ button:hover {
 }
 
 #galeria {
-    background-color: #AAAE7F;
+    background: linear-gradient(to bottom, #97A97C, #718355);
     text-align: center;
     margin: 30px;
     padding: 20px;
@@ -186,7 +186,7 @@ button:hover {
 #actividades {
     padding: 40px;
     margin: 30px;
-    background: linear-gradient(to bottom, #025535, #000000);
+    background: linear-gradient(to bottom, #97A97C, #718355);
     border-radius: 15px;
     color: white;
 }
@@ -209,7 +209,7 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s, box-shadow 0.3s;
     padding: 10px;
-    background: linear-gradient(to bottom, #025535, #001f13);
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,12 +249,11 @@ button:hover {
 }
 
 footer {
-    background: #004D40;
+    background: linear-gradient(to bottom, #718355, #87986A);
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    background: linear-gradient(to bottom, #025535, #000000);
 }
 
 footer a {
@@ -263,5 +262,21 @@ footer a {
 }
 
 footer a:hover {
-    color: #AAAE7F;
+    background: linear-gradient(to bottom, #4e5a3b, #626e4c);
+}
+.videos {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.videos video {
+    width: 300px; 
+    height: auto; 
+    border: 3px solid #586840; 
+    border-width: 10px;
+    
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
 }
