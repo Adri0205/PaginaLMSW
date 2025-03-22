@@ -142,3 +142,38 @@ h2 {
 body{
     background: linear-gradient(to bottom, #5e6d47, #707e58);
 }
+/* Estilo general del contenedor */
+.price-container {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Título de la sección */
+.price-container h2 {
+    color: #295f34;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Encabezado de cada sección */
+.price-header {
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Contenido de los precios */
+.price-content {
+    font-size: 18px;
+    margin-top: 10px;
+}
