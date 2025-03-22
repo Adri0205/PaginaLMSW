@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: center;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
-    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    background: linear-gradient(to bottom, #97A97C, #718355);
 }
 
 h2 {
@@ -60,4 +60,82 @@ h2 {
 
 .info:target {
     display: block;
+}
+.price-container {
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Título de la sección */
+.price-container h2 {
+    color: #295f34;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Encabezado de cada sección */
+.price-header {
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Contenido de los precios */
+.price-content {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Precios destacados */
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
+    color: white;
+    border-radius: 15px;
+    width: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Separador */
+.separator {
+    border-top: 2px solid rgb(49, 59, 31);
+    margin: 20px 0;
+}
+
+/* Lista de souvenirs */
+.price-list {
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.price-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.price-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.price-list li span {
+    font-weight: bold;
+}
+body{
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
 }
