@@ -7,7 +7,6 @@ section div {
     background: center/cover url(../img/Green\ and\ White\ Modern\ Minimalist\ Nature\ Presentation.jpg) no-repeat;
     color: #f9f9f9;
     background-attachment: fixed;
-    border-radius: 10px;
 }
 
 .comedoresSection {
@@ -24,11 +23,18 @@ section div {
 }
 
 #Tipicos {
-    background-color: #AAAE7F;
     display: flex;
-    margin: 30px;
+    margin: 30px 70px;
+    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
     border-radius: 3em 1em / 0.5em 3em;
     padding: 20px;
+}
+
+#Tipicos div {
+    text-align: center;
+    width: 680px;
+    align-self: center;
+    margin: auto;
 }
 
 #Tipicos img {
@@ -39,11 +45,18 @@ section div {
 }
 
 #Alms {
-    background-color: #AAAE7F;
     display: flex;
-    margin: 30px;
+    margin: 30px 70px;
+    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
     border-radius: 3em 1em / 0.5em 3em;
     padding: 20px;
+}
+
+#Alms div {
+    text-align: center;
+    width: 680px;
+    align-self: center;
+    margin: auto;
 }
 
 #Alms img {
@@ -54,15 +67,18 @@ section div {
 }
 
 #sorbetes {
-    background-color: #AAAE7F;
     display: flex;
-    margin: 30px;
+    margin: 30px 70px;
+    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
     border-radius: 3em 1em / 0.5em 3em;
     padding: 20px;
 }
 
 #sorbetes div {
+    text-align: center;
     width: 680px;
+    align-self: center;
+    margin: auto;
 }
 
 #sorbetes img {
@@ -76,4 +92,19 @@ section div {
 img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+}
+
+#menu {
+    display: flex;
+    margin: 30px 70px;
+    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
+    border-radius: 3em 1em / 0.5em 3em;
+    padding: 20px;
+}
+
+#menu div {
+    text-align: center;
+    width: 680px;
+    align-self: center;
+    margin: auto;
 }

@@ -1,0 +1,64 @@
+.bodyActivities {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.activities a {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.activities img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    border-radius: 10px;
+}
+
+.activities img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    filter: contrast(120%);
+    cursor: pointer;
+}
+
+.info {
+    display: none;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+.info:target {
+    display: block;
+}
