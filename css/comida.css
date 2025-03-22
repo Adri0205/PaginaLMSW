@@ -4,7 +4,7 @@ section div {
 
 .com {
     height: 100dvh;
-    background: center/cover url(../img/Green\ and\ White\ Modern\ Minimalist\ Nature\ Presentation.jpg) no-repeat;
+    background: center/cover(url(../img/comidas.png)) no-repeat;
     color: #f9f9f9;
     background-attachment: fixed;
 }
@@ -25,7 +25,7 @@ section div {
 #Tipicos {
     display: flex;
     margin: 30px 70px;
-    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
     border-radius: 3em 1em / 0.5em 3em;
     padding: 20px;
 }
@@ -47,7 +47,7 @@ section div {
 #Alms {
     display: flex;
     margin: 30px 70px;
-    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
     border-radius: 3em 1em / 0.5em 3em;
     padding: 20px;
 }
@@ -69,7 +69,7 @@ section div {
 #sorbetes {
     display: flex;
     margin: 30px 70px;
-    background-image: url(../img/Fondo\ Zoom\ Orgánico\ Verde.png);
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
     border-radius: 3em 1em / 0.5em 3em;
     padding: 20px;
 }

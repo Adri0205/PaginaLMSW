@@ -1,8 +1,8 @@
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
 }
 
 h2 {
@@ -50,7 +50,7 @@ h2 {
     color: white;
     text-align: center;
     margin-top: 30px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    background: linear-gradient(to bottom, #5e6d47, #707e58);
     padding: 15px;
     border-radius: 10px;
     margin: auto;
