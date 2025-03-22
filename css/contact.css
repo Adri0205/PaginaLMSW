@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 .container {
@@ -13,6 +13,7 @@ body {
     overflow: hidden;
     max-width: 900px;
     width: 100%;
+    margin-top: 75px;
 }
 
 .info-section {
@@ -52,4 +53,10 @@ textarea {
 textarea {
     height: 100px;
     resize: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

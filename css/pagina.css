@@ -248,30 +248,12 @@ button:hover {
     text-align: center;
 }
 
-.botonVolver {
-    position: fixed;
-    align-self: center;
-    top: -15px;
-    left: 20px;
-    background-color: transparent;
-    border: none;
-    padding: 10px 20px 10px 20px;
-    background: #025535;
-    border: 2px solid black;
-}
-
-.botonVolver:hover {
-    transform: scale(1.1);
-}
-
 footer {
     background: #004D40;
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     background: linear-gradient(to bottom, #025535, #000000);
 }
 
