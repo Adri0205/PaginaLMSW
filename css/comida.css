@@ -4,7 +4,7 @@ section div {
 
 .com {
     height: 100dvh;
-    background: center/cover(url(../img/comidas.png)) no-repeat;
+    background: center/cover url("../img/food.jpg") no-repeat;
     color: #f9f9f9;
     background-attachment: fixed;
 }
