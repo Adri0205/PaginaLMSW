@@ -248,6 +248,36 @@ button:hover {
     text-align: center;
 }
 
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+
+}
+
+.videos video {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
 footer {
     background: #004D40;
     color: white;

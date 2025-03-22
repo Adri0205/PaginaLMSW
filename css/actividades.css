@@ -1,9 +1,8 @@
-.bodyActivities {
-    height: 100vh;
+main {
     display: flex;
     justify-content: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
-    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+    align-items: center;
+    min-height: 100vh;
 }
 
 h2 {
@@ -61,10 +60,4 @@ h2 {
 
 .info:target {
     display: block;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
