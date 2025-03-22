@@ -1,32 +1,3 @@
-body {
-    text-align: center;
-    background-color: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgb(59, 110, 47)100%);
-    color: white;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgb(59, 110, 47) 100%);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    font-family: "Poiret One", sans-serif;
-    text-align: center;
-    color: white;
-}
-
-.galeria {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 section {
     display: flex;
     justify-content: center;
@@ -34,7 +5,6 @@ section {
     gap: 20px;
 }
 
-/* Estilo de las imágenes */
 section a {
     display: inline-block;
     overflow: hidden;
@@ -49,7 +19,6 @@ section img {
     border-radius: 10px;
 }
 
-/* Al pasar el cursor, la imagen se agranda */
 section img:hover {
     transform: scale(1.5);
     opacity: 1;
@@ -57,8 +26,21 @@ section img:hover {
     cursor: pointer;
 }
 
-p {
-    font-family: "Poiret One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.botonVolver {
+    position: fixed;
+    align-self: center;
+    top: -15px;
+    left: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 32px;
+    margin-top: 40px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    background: #025535;
+}
+
+.botonVolver:hover {
+    transform: scale(1.1);
 }
