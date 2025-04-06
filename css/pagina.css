@@ -12,7 +12,7 @@ h2 {
 }
 
 p {
-    text-align: center;
+    text-align: justify;
 }
 
 html {
@@ -102,6 +102,15 @@ button {
 
 button:hover {
     background: #0b461d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #49b269;
 }
 
 #historia {
@@ -253,6 +262,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: 25px;
 }
 
 footer a {
