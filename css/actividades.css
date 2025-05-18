@@ -177,3 +177,130 @@ body{
     font-size: 18px;
     margin-top: 10px;
 }
+/*Telefono*/
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    padding: 20px;
+    min-height: auto;
+  }
+
+  h2 {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+
+  .galery {
+    width: 100%;
+  }
+
+  .activities {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .activities img {
+    width: 90vw;  /* Casi todo el ancho visible */
+    height: auto;
+    max-height: 300px;
+  }
+
+  .info {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .price-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .price-container h2 {
+    font-size: 20px;
+  }
+
+  .price-header {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .price-content {
+    font-size: 16px;
+  }
+
+  .price-list {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 20px;
+    padding: 4px;
+    width: auto;
+    margin: 8px;
+  }
+}
+/*tablet*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    padding: 40px;
+    min-height: 100vh;
+  }
+
+  h2 {
+    margin-top: 80px;
+    font-size: 28px;
+  }
+
+  .galery {
+    width: 90%;
+  }
+
+  .activities {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .activities img {
+    width: 180px;
+    height: 270px;
+  }
+
+  .info {
+    font-size: 18px;
+    margin-top: 25px;
+    padding: 12px;
+  }
+
+  .price-container {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .price-container h2 {
+    font-size: 22px;
+  }
+
+  .price-header {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .price-content {
+    font-size: 18px;
+  }
+
+  .price-list {
+    font-size: 16px;
+  }
+
+  .price {
+    font-size: 22px;
+    padding: 5px;
+    width: auto;
+    margin: 10px;
+  }
+}

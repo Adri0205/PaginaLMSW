@@ -108,3 +108,113 @@ img:hover {
     align-self: center;
     margin: auto;
 }
+/*telefono*/
+@media (max-width: 768px) {
+  .com {
+    background-attachment: scroll;
+    height: auto;
+    padding: 80px 15px;
+    text-align: center;
+  }
+
+  .comedoresSection {
+    padding: 80px 15px 0 15px;
+    font-size: 16px;
+  }
+
+  .comedoresSection p {
+    margin-top: 20px;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+    margin-inline: auto;
+  }
+
+  #Tipicos,
+  #Alms,
+  #sorbetes,
+  #menu {
+    flex-direction: column;
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  #Tipicos div,
+  #Alms div,
+  #sorbetes div,
+  #menu div {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  #Tipicos img,
+  #Alms img,
+  #sorbetes img,
+  #menu img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+
+  img:hover {
+    transform: none;
+  }
+}
+/*tablet*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .com {
+    background-attachment: scroll;
+    height: auto;
+    padding: 120px 30px;
+    text-align: center;
+  }
+
+  .comedoresSection {
+    padding: 120px 30px 0 30px;
+    font-size: 18px;
+  }
+
+  .comedoresSection p {
+    margin-top: 28px;
+    max-width: 90%;
+    font-size: 16px;
+    line-height: 28px;
+    margin-inline: auto;
+  }
+
+  #Tipicos,
+  #Alms,
+  #sorbetes,
+  #menu {
+    flex-direction: row; /* ← Horizontal */
+    margin: 25px;
+    padding: 20px;
+    align-items: center;
+    gap: 20px; /* Espacio entre imagen y texto */
+    flex-wrap: wrap; /* Permite que se ajusten mejor si el espacio es justo */
+  }
+
+  #Tipicos div,
+  #Alms div,
+  #sorbetes div,
+  #menu div {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+  #Tipicos img,
+  #Alms img,
+  #sorbetes img,
+  #menu img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    flex-shrink: 0; /* Impide que se reduzca demasiado en pantallas estrechas */
+  }
+
+  img:hover {
+    transform: none;
+  }
+}
