@@ -1,182 +1,186 @@
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
-    background: linear-gradient(to bottom, #97A97C, #718355);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
+  background: linear-gradient(to bottom, #97A97C, #718355);
 }
 
 h2 {
-    margin-top: 100px;
-    margin-bottom: 20px;
-    color: white;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .galery {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .activities {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .activities a {
-    display: inline-block;
-    overflow: hidden;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .activities img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    opacity: 0.8;
-    transition: transform 0.4s ease, opacity 0.4s ease;
-    border-radius: 10px;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  border-radius: 10px;
 }
 
 .activities img:hover {
-    transform: scale(1.2);
-    opacity: 1;
-    filter: contrast(120%);
-    cursor: pointer;
+  transform: scale(1.2);
+  opacity: 1;
+  filter: contrast(120%);
+  cursor: pointer;
 }
 
 .info {
-    display: none;
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-    background: linear-gradient(to bottom, #5e6d47, #707e58);
-    padding: 15px;
-    border-radius: 10px;
-    margin: auto;
-    font-size: 18px;
+  display: none;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  background: linear-gradient(to bottom, #5e6d47, #707e58);
+  padding: 15px;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 18px;
 }
 
 
 .info:target {
-    display: block;
+  display: block;
 }
+
 .price-container {
-    background-color: white;
-    width: 60%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 /* Título de la sección */
 .price-container h2 {
-    color: #295f34;
-    font-size: 24px;
-    margin-bottom: 10px;
+  color: #295f34;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 /* Encabezado de cada sección */
 .price-header {
-    background: linear-gradient(to bottom, #5e6d47, #707e58);
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 10px;
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 10px;
+  background: linear-gradient(to bottom, #5e6d47, #707e58);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 /* Contenido de los precios */
 .price-content {
-    font-size: 18px;
-    margin-top: 10px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
 /* Precios destacados */
 .price {
-    font-size: 24px;
-    font-weight: bold;
-    background: linear-gradient(to bottom, #5e6d47, #707e58);
-    color: white;
-    border-radius: 15px;
-    width: 5px;
-    padding: 5px;
-    margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #5e6d47, #707e58);
+  color: white;
+  border-radius: 15px;
+  width: 5px;
+  padding: 5px;
+  margin: 10px;
 }
 
 /* Separador */
 .separator {
-    border-top: 2px solid rgb(49, 59, 31);
-    margin: 20px 0;
+  border-top: 2px solid rgb(49, 59, 31);
+  margin: 20px 0;
 }
 
 /* Lista de souvenirs */
 .price-list {
-    text-align: left;
-    display: inline-block;
-    font-size: 16px;
+  text-align: left;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .price-list ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .price-list li {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 0;
-    border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .price-list li span {
-    font-weight: bold;
+  font-weight: bold;
 }
-body{
-    background: linear-gradient(to bottom, #5e6d47, #707e58);
+
+body {
+  background: linear-gradient(to bottom, #5e6d47, #707e58);
 }
+
 /* Estilo general del contenedor */
 .price-container {
-    background-color: white;
-    width: 60%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 /* Título de la sección */
 .price-container h2 {
-    color: #295f34;
-    font-size: 24px;
-    margin-bottom: 10px;
+  color: #295f34;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 /* Encabezado de cada sección */
 .price-header {
-    background: linear-gradient(to bottom, #5e6d47, #707e58);
-    color: white;
-    padding: 10px;
-    font-size: 18px;
-    border-radius: 10px;
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 10px;
+  background: linear-gradient(to bottom, #5e6d47, #707e58);
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 /* Contenido de los precios */
 .price-content {
-    font-size: 18px;
-    margin-top: 10px;
+  font-size: 18px;
+  margin-top: 10px;
 }
+
 /*Telefono*/
 @media (max-width: 768px) {
   main {
@@ -200,7 +204,8 @@ body{
   }
 
   .activities img {
-    width: 90vw;  /* Casi todo el ancho visible */
+    width: 90vw;
+    /* Casi todo el ancho visible */
     height: auto;
     max-height: 300px;
   }
@@ -240,6 +245,7 @@ body{
     margin: 8px;
   }
 }
+
 /*tablet*/
 @media (min-width: 769px) and (max-width: 1024px) {
   main {

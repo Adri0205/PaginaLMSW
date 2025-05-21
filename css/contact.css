@@ -55,3 +55,27 @@ textarea {
     height: 100px;
     resize: none;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .info-section,
+    .form-section {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .icon-section {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    input,
+    textarea {
+        width: auto;
+    }
+}
