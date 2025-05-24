@@ -205,72 +205,85 @@ a:hover {
   height: 243px;
   border-radius: 15px;
 }
+/*---Seccion Actividades---*/
 
+
+/*--- Sección Actividades ---*/
+
+/* Estilo del contenedor general de la sección con id "actividades" */
 #actividades {
-  padding: 40px;
-  margin: 30px;
-  background: linear-gradient(to bottom, #97A97C, #718355);
-  border-radius: 15px;
-  color: white;
+  padding: 40px; /* Espacio interno alrededor del contenido */
+  margin: 30px; /* Espacio externo respecto a otros elementos */
+  background: linear-gradient(to bottom, #97A97C, #718355); /* Fondo con degradado vertical en tonos verdes */
+  border-radius: 15px; /* Bordes redondeados */
+  color: white; /* Color del texto */
 }
 
+/* Estilo para el título de la sección, con clase "acti" */
 .acti {
-  font-size: 2rem;
-  margin-bottom: 10px;
-  color: white;
+  font-size: 2rem; /* Tamaño de fuente grande (2 veces el tamaño base) */
+  margin-bottom: 10px; /* Separación inferior */
+  color: white; /* Color blanco para el texto */
 }
 
+/* Contenedor que agrupa todas las tarjetas de actividades */
 .actividad-container {
-  display: flex;
-  gap: 20px;
-  margin-top: 20px;
+  display: flex; /* Muestra los elementos en fila (horizontalmente) */
+  gap: 20px; /* Espacio entre cada tarjeta */
+  margin-top: 20px; /* Separación superior */
 }
 
+/* Estilo individual de cada tarjeta de actividad */
 .actividad {
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s, box-shadow 0.3s;
-  padding: 10px;
-  background: linear-gradient(to bottom, #5e6d47, #707e58);
-  display: flex;
+  width: 250px; /* Ancho fijo para cada tarjeta */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para dar efecto de elevación */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transición suave al hacer hover */
+  padding: 10px; /* Espacio interno */
+  background: linear-gradient(to bottom, #5e6d47, #707e58); /* Fondo con degradado más oscuro */
+  display: flex; /* Para centrar contenido */
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; /* Centrar texto dentro de la tarjeta */
 }
 
+/* Efecto cuando se pasa el mouse sobre una tarjeta */
 .actividad:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
-  background-color: #013a24;
-  color: #2e3633;
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Sombra más fuerte */
+  background-color: #013a24; /* Cambia el fondo */
+  color: #2e3633; /* Cambia el color del texto */
 }
 
+/* Enlaces dentro de cada tarjeta de actividad */
 .actividad a {
-  text-decoration: none;
-  color: white;
-  display: block;
+  text-decoration: none; /* Quita el subrayado */
+  color: white; /* Color del texto del enlace */
+  display: block; /* Ocupa todo el ancho */
 }
 
+/* Imagen dentro de la tarjeta */
 .actividad img {
-  width: 100%;
-  height: 150px;
-  border-radius: 10px;
-  object-fit: cover;
+  width: 100%; /* Imagen ocupa todo el ancho disponible */
+  height: 150px; /* Altura fija */
+  border-radius: 10px; /* Bordes redondeados */
+  object-fit: cover; /* Corta la imagen si es necesario, manteniendo proporciones */
 }
 
+/* Título dentro de la sección .acti */
 .acti h3 {
   color: white;
-  text-align: center;
-
+  text-align: center; /* Centra el texto */
 }
 
+/* Título dentro de cada tarjeta de actividad */
 .actividad h3 {
-  margin: 10px 0;
-  font-size: 1.2rem;
+  margin: 10px 0; /* Separación arriba y abajo */
+  font-size: 1.2rem; /* Tamaño del título */
   text-align: center;
 }
 
+/*--------------------*/
 footer {
   background: linear-gradient(to bottom, #718355, #87986A);
   color: white;
