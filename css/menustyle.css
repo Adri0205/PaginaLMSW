@@ -1,27 +1,27 @@
 section {
-    display: flex;
+    display: flex;/* Coloca los elementos hijos en una fila */
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 20px;/* Espacio entre cada elemento */
 }
 
 section a {
-    display: inline-block;
-    overflow: hidden;
+    display: inline-block; /* Permite aplicar dimensiones y márgenes */
+    overflow: hidden;/* Oculta lo que sobresale del contenedor (como las imágenes ampliadas) */
 }
 
 section img {
     width: 297px;
     height: 385px;
     object-fit: cover;
-    opacity: 0.8;
-    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0.8;/* Hace que la imagen se vea un poco transparente :D*/
+    transition: transform 0.4s ease, opacity 0.4s ease;/* Agrega una transición suave al agrandarse o cambiar de opacidad */
     border-radius: 10px;
 }
 
 section img:hover {
     transform: scale(1.5);
-    opacity: 1;
-    filter: contrast(120%);
+    opacity: 1;/* Hace la imagen completamente visible */
+    filter: contrast(120%);/* Aumenta el contraste */
     cursor: pointer;
 }
