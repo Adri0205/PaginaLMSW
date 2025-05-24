@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 .info {
   text-align: justify;
-
 }
 
 h1 {
@@ -25,12 +24,11 @@ html {
 }
 
 body {
-  background-color: #B5C99A;
+  background-color: #b5c99a;
   color: #2e3633;
   font-family: "Chelsea Market", system-ui;
   margin: 0;
   background-image: url("../img/topography.svg");
-  min-height: 100dhv;
 }
 
 section {
@@ -80,13 +78,11 @@ header nav {
   display: none;
 }
 
-
 .hero {
   height: 100dvh;
   background: center/cover url("../img/hero.png") no-repeat;
   color: #f9f9f9;
   background-attachment: fixed;
-  border-radius: 10px;
 }
 
 .heroSection {
@@ -103,7 +99,7 @@ header nav {
 
 button {
   font-family: "Chelsea Market", system-ui;
-  background: linear-gradient(to bottom, #97A97C, #718355);
+  background: linear-gradient(to bottom, #97a97c, #718355);
   color: #f9f9f9;
   border: none;
   padding: 15px 30px;
@@ -128,7 +124,7 @@ a:hover {
 }
 
 #historia {
-  background: linear-gradient(to bottom, #97A97C, #718355);
+  background: linear-gradient(to bottom, #97a97c, #718355);
   display: flex;
   margin: 30px;
   padding: 20px;
@@ -150,7 +146,7 @@ a:hover {
 }
 
 #galeria {
-  background: linear-gradient(to bottom, #97A97C, #718355);
+  background: linear-gradient(to bottom, #97a97c, #718355);
   text-align: center;
   margin: 30px;
   padding: 20px;
@@ -207,14 +203,17 @@ a:hover {
 }
 /*---Seccion Actividades---*/
 
-
 /*--- Sección Actividades ---*/
 
 /* Estilo del contenedor general de la sección con id "actividades" */
 #actividades {
   padding: 40px; /* Espacio interno alrededor del contenido */
   margin: 30px; /* Espacio externo respecto a otros elementos */
-  background: linear-gradient(to bottom, #97A97C, #718355); /* Fondo con degradado vertical en tonos verdes */
+  background: linear-gradient(
+    to bottom,
+    #97a97c,
+    #718355
+  ); /* Fondo con degradado vertical en tonos verdes */
   border-radius: 15px; /* Bordes redondeados */
   color: white; /* Color del texto */
 }
@@ -240,7 +239,11 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para dar efecto de elevación */
   transition: transform 0.3s, box-shadow 0.3s; /* Transición suave al hacer hover */
   padding: 10px; /* Espacio interno */
-  background: linear-gradient(to bottom, #5e6d47, #707e58); /* Fondo con degradado más oscuro */
+  background: linear-gradient(
+    to bottom,
+    #5e6d47,
+    #707e58
+  ); /* Fondo con degradado más oscuro */
   display: flex; /* Para centrar contenido */
   justify-content: center;
   align-items: center;
@@ -285,7 +288,7 @@ a:hover {
 
 /*--------------------*/
 footer {
-  background: linear-gradient(to bottom, #718355, #87986A);
+  background: linear-gradient(to bottom, #718355, #87986a);
   color: white;
   text-align: center;
   padding: 10px;
@@ -320,7 +323,6 @@ footer a:hover {
 
 /* --- Versión para Teléfono --- */
 @media (max-width: 768px) {
-
   h1 {
     font-size: 30px;
   }
@@ -367,9 +369,10 @@ footer a:hover {
     z-index: 1000;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    z-index: 100;
   }
 
-  #menu-toggle:checked+.menu-icon+.side-nav {
+  #menu-toggle:checked + .menu-icon + .side-nav {
     left: 0;
   }
 
@@ -445,7 +448,6 @@ footer a:hover {
 
 /* --- Versión para Tablet --- */
 @media (min-width: 769px) and (max-width: 1024px) {
-
   h1 {
     font-size: 36px;
   }

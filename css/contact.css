@@ -1,81 +1,86 @@
+.contact-main {
+  min-height: calc(100dvh - 130px);
+  display: grid;
+  place-content: center;
+}
 .container {
-    display: flex;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    max-width: 900px;
-    width: 100%;
-    margin-top: 100px;
-    margin-inline: auto;
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  margin-top: 100px;
+  margin-inline: auto;
 }
 
 .info-section {
-    background: linear-gradient(to bottom, #97A97C, #718355);
-    color: white;
-    padding: 30px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+  background: linear-gradient(to bottom, #97a97c, #718355);
+  color: white;
+  padding: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 30px;
 }
 
 .form-section {
-    padding: 30px;
-    width: 60%;
+  padding: 30px;
+  width: 60%;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-    font-weight: bold;
-    margin-top: 10px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 input,
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 textarea {
-    height: 100px;
-    resize: none;
+  height: 100px;
+  resize: none;
 }
 
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        margin-top: 30px;
-        width: 80%;
-    }
+  .container {
+    flex-direction: column;
+    margin-top: 30px;
+    width: 80%;
+  }
 
-    .info-section,
-    .form-section {
-        width: 90%;
-        padding: 20px;
-    }
+  .info-section,
+  .form-section {
+    width: 90%;
+    padding: 20px;
+  }
 
-    .icon-section {
-        flex-wrap: wrap;
-        gap: 15px;
-    }
+  .icon-section {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 
-    input,
-    textarea {
-        width: auto;
-    }
+  input,
+  textarea {
+    width: auto;
+  }
 }
