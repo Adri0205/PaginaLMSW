@@ -6,10 +6,13 @@ section div {
 /*  SECCIÓN PRINCIPAL DE COMIDA TIPICA*/
 
 .com {
-  height: 100dvh;/*altura del viewport*/
-  background: center/cover url("../img/food.jpg") no-repeat;/*imagen del fondo*/
+  height: 100dvh;
+  /*altura del viewport*/
+  background: center/cover url("../img/food.jpg") no-repeat;
+  /*imagen del fondo*/
   color: #f9f9f9;
-  background-attachment: fixed;/*fijar fondo al hacer scrool*/
+  background-attachment: fixed;
+  /*fijar fondo al hacer scrool*/
 }
 
 .comedoresSection {
@@ -31,23 +34,29 @@ section div {
 
 
 #Tipicos {
-  display: flex;/* Muestra el contenido en una fila */
+  display: flex;
+  /* Muestra el contenido en una fila */
   margin: 30px 70px;
-  background: linear-gradient(to bottom, #5e6d47, #707e58);/* Degradado vertical */
-  border-radius: 3em 1em / 0.5em 3em;/* Bordes personalizados */
+  background: linear-gradient(to bottom, #5e6d47, #707e58);
+  /* Degradado vertical */
+  border-radius: 3em 1em / 0.5em 3em;
+  /* Bordes personalizados */
   padding: 20px;
 }
 
 #Tipicos div {
-  text-align: center;/* Centra el texto */
+  text-align: center;
+  /* Centra el texto */
   width: 680px;
-  align-self: center;/* Alinea verticalmente dentro del flex */
+  align-self: center;
+  /* Alinea verticalmente dentro del flex */
   margin: auto;
 }
 
 #Tipicos img {
   margin: 20px;
-  border-radius: 15px;/* Bordes redondeados de la imagen */
+  border-radius: 15px;
+  /* Bordes redondeados de la imagen */
   width: 200px;
   height: 200px;
 }
@@ -106,8 +115,10 @@ section div {
 
 
 img:hover {
-  transform: scale(1.1);/* Agranda la imagen */
-  transition: transform 0.3s ease-in-out;/* Transición suave del efecto */
+  transform: scale(1.1);
+  /* Agranda la imagen */
+  transition: transform 0.3s ease-in-out;
+  /* Transición suave del efecto */
 }
 
 
@@ -133,7 +144,8 @@ img:hover {
 
 @media (max-width: 768px) {
   .com {
-    background-attachment: scroll;/* Imagen ya no se fija */
+    background-attachment: scroll;
+    /* Imagen ya no se fija */
     height: auto;
     padding: 80px 15px;
     text-align: center;
@@ -164,7 +176,7 @@ img:hover {
     align-items: center;
   }
 
-   /* Ajustes del contenido y tamaño de imágenes para móviles */
+  /* Ajustes del contenido y tamaño de imágenes para móviles */
 
   #Tipicos div,
   #Alms div,
@@ -214,12 +226,13 @@ img:hover {
   #Alms,
   #sorbetes,
   #menu {
+    display: block;
     flex-direction: row;
     /* ← Horizontal */
     margin: 25px;
     padding: 20px;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     /* Espacio entre imagen y texto */
     flex-wrap: wrap;
     /* Permite que se ajusten mejor si el espacio es justo */
@@ -245,7 +258,7 @@ img:hover {
     /* Impide que se reduzca demasiado en pantallas estrechas */
   }
 
-   /* También se desactiva el efecto en tablet */
+  /* También se desactiva el efecto en tablet */
 
   img:hover {
     transform: none;
