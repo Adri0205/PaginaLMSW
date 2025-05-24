@@ -3,6 +3,7 @@
   display: grid;
   place-content: center;
 }
+
 .container {
   display: flex;
   background: white;
@@ -71,7 +72,7 @@ textarea {
   .info-section,
   .form-section {
     width: 90%;
-    padding: 20px;
+    padding: 15px;
   }
 
   .icon-section {

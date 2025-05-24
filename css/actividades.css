@@ -1,39 +1,46 @@
-main { /*centra todo el contenido en el eje horizontal y vertical.*/
+main {
+  /*centra todo el contenido en el eje horizontal y vertical.*/
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /*asegura que ocupe toda la altura de la pantalla.*/
+  min-height: 100vh;
+  /*asegura que ocupe toda la altura de la pantalla.*/
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 1%, rgba(35, 89, 69, 1) 100%);
   background: linear-gradient(to bottom, #97A97C, #718355);
 }
 
 
-h2 { /*da espacio antes y después del título, y cambia el color a blanco para que destaque sobre el fondo oscuro.*/
+h2 {
+  /*da espacio antes y después del título, y cambia el color a blanco para que destaque sobre el fondo oscuro.*/
   margin-top: 100px;
   margin-bottom: 20px;
   color: white;
 }
 
-.galery { /*organiza en columna el contenido de la galería, centrado*/
+.galery {
+  /*organiza en columna el contenido de la galería, centrado*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.activities { /*organiza horizontalmente las imágenes de actividades y da espacio entre ellas.*/
+.activities {
+  /*organiza horizontalmente las imágenes de actividades y da espacio entre ellas.*/
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.activities a { /*define los enlaces que rodean las imágenes para controlar su contenedor.*/
+.activities a {
+  /*define los enlaces que rodean las imágenes para controlar su contenedor.*/
   display: inline-block;
   overflow: hidden;
 }
 
-.activities img { /*define tamaño fijo, efecto de recorte para mantener proporción, opacidad inicial y animación al pasar el cursor.*/
+.activities img {
+  /*define tamaño fijo, efecto de recorte para mantener proporción, opacidad inicial y animación al pasar el cursor.*/
   width: 200px;
   height: 300px;
   object-fit: cover;
@@ -42,14 +49,16 @@ h2 { /*da espacio antes y después del título, y cambia el color a blanco para 
   border-radius: 10px;
 }
 
-.activities img:hover { /*al pasar el mouse se agranda, se vuelve más visible y aumenta el contraste.*/
+.activities img:hover {
+  /*al pasar el mouse se agranda, se vuelve más visible y aumenta el contraste.*/
   transform: scale(1.2);
   opacity: 1;
   filter: contrast(120%);
   cursor: pointer;
 }
 
-.info { /*contenido oculto (como descripciones); solo se mostrará si es el objetivo del enlace (#id).*/
+.info {
+  /*contenido oculto (como descripciones); solo se mostrará si es el objetivo del enlace (#id).*/
   display: none;
   color: white;
   text-align: center;
@@ -62,16 +71,19 @@ h2 { /*da espacio antes y después del título, y cambia el color a blanco para 
 }
 
 
-.info:target { /*cuando se hace clic en un enlace con #id, esa sección .info aparece.*/
+.info:target {
+  /*cuando se hace clic en un enlace con #id, esa sección .info aparece.*/
   display: block;
 }
+
 .info ul li::before {
-    content: "✔ ";
-    color: green;
+  content: "✔ ";
+  color: green;
 }
 
 /*Contenedor de precios*/
-.price-container {/*tarjeta blanca centrada con sombra para destacar la sección de precios o souvenirs.*/
+.price-container {
+  /*tarjeta blanca centrada con sombra para destacar la sección de precios o souvenirs.*/
   background-color: white;
   width: 60%;
   margin: auto;
@@ -82,14 +94,16 @@ h2 { /*da espacio antes y después del título, y cambia el color a blanco para 
 }
 
 /* Título de la sección */
-.price-container h2 { /*Color verde oscuro, tamaño medio, título de la sección de precios.*/
+.price-container h2 {
+  /*Color verde oscuro, tamaño medio, título de la sección de precios.*/
   color: #295f34;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
 /* Encabezado de cada sección */
-.price-header { /*para títulos internos como "Souvenirs", visualmente llamativos con fondo degradado.*/
+.price-header {
+  /*para títulos internos como "Souvenirs", visualmente llamativos con fondo degradado.*/
   background: linear-gradient(to bottom, #5e6d47, #707e58);
   color: white;
   padding: 10px;
@@ -147,6 +161,7 @@ h2 { /*da espacio antes y después del título, y cambia el color a blanco para 
 .price-list li span {
   font-weight: bold;
 }
+
 /**/
 body {
   background: linear-gradient(to bottom, #5e6d47, #707e58);
@@ -320,5 +335,11 @@ body {
     padding: 5px;
     width: auto;
     margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .activities img {
+    opacity: inherit;
   }
 }
